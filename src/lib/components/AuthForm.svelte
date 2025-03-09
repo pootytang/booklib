@@ -28,7 +28,9 @@
       {#if isRegistration}
       <input placeholder="Confirm password" type="password" name="passwordConfirmation" value={form?.passwordConfirmation || ""} />
       {/if}
+
       <Button type="submit">{isRegistration ? "Register" : "Login"}</Button>
+      
       {#if isRegistration}
         <p class="auth-hint mt-s">Already have an account? <a href="/login">Log In</a></p>
       {:else}

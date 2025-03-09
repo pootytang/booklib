@@ -24,9 +24,6 @@
   
     return () => data.subscription.unsubscribe()
   })
-
-  $inspect(session)
-  $inspect(data.user)
 </script>
 
 <Header />
